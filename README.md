@@ -180,8 +180,6 @@ This project is built for learning purposes. Key learning areas:
 5. **CI/CD** automation
 6. **Testing pyramid** (unit, integration, E2E)
 
-## 🤝 Contributing
-
 ## 📄 License
 
 MIT License - see LICENSE file for details
