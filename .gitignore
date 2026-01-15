@@ -1,0 +1,191 @@
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# OS
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =============================================================================
+# Java / Maven / Quarkus
+# =============================================================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Quarkus specific
+.quarkus/
+
+# =============================================================================
+# Node / Angular / Frontend
+# =============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Angular build output
+dist/
+dist-ssr/
+tmp/
+out-tsc/
+bazel-out/
+
+# Angular cache
+.angular/
+.sass-cache/
+
+# =============================================================================
+# Docker
+# =============================================================================
+# Don't ignore docker-compose.yml itself, but ignore generated files
+docker-compose.override.yml
+
+# Docker volumes (if stored locally)
+postgres_data/
+prometheus_data/
+grafana_data/
+
+# =============================================================================
+# Environment Variables & Secrets
+# =============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# Keep the example file
+!.env.example
+!.env.template
+
+# =============================================================================
+# Testing
+# =============================================================================
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Test results
+test-results/
+playwright-report/
+test-output/
+
+# JUnit test reports
+**/surefire-reports/
+**/failsafe-reports/
+
+# Robot Framework
+log.html
+output.xml
+report.html
+selenium-screenshot-*.png
+
+# =============================================================================
+# Kubernetes
+# =============================================================================
+# Helm charts cache
+.helm/
+
+# Kustomize overlays (if generated)
+k8s/overlays/*/generated/
+
+# =============================================================================
+# Monitoring & Observability
+# =============================================================================
+# Grafana provisioning secrets
+grafana/provisioning/datasources/*-secrets.yml
+
+# Prometheus data (if not in Docker volume)
+prometheus-data/
+
+# =============================================================================
+# Build artifacts
+# =============================================================================
+build/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================================================================
+# Temporary files
+# =============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# =============================================================================
+# Documentation
+# =============================================================================
+# Don't ignore main docs, but ignore generated docs
+docs/generated/
+site/
+
+# =============================================================================
+# Databases
+# =============================================================================
+# Local SQLite files (if you use them for testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local dumps
+*.sql.gz
+*.dump
+
+# =============================================================================
+# CI/CD
+# =============================================================================
+# Don't ignore .github/workflows, but ignore local CI artifacts
+.github/workflows/generated/
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
